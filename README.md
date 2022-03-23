@@ -5,7 +5,7 @@ To use this package, please follow the steps below:
 
 <b>Step 1:</b>
 ```
-composer require workable/render-sitemap-xml
+composer require workable-hz/render-sitemap-xml
 ```
 
 <b>Step 2:</b>
