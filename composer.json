@@ -1,0 +1,24 @@
+{
+    "name": "workable/render-sitemap-xml",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "roumen/sitemap": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SitemapRenderXML\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SitemapRenderXML\\SitemapRenderServiceProvider"
+            ]
+        }
+    }
+}
